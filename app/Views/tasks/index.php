@@ -1,0 +1,1 @@
+<?= view('layout/header') ?><?= view('layout/nav') ?><h1>Task List</h1><?php if (session('user_id')): ?><p><a class="button" href="<?= site_url('tasks/new') ?>">New Task</a></p><?php endif; ?><?php if (session('message')): ?><div class="message"><?= esc(session('message')) ?></div><?php endif; ?><?= view('tasks/_list', ['tasks' => $tasks]) ?><?= view('layout/footer') ?>

@@ -1,0 +1,1 @@
+<?= view('layout/header') ?><?= view('layout/nav') ?><h1>About</h1><p>Tasks for Today management system built with CodeIgniter 4.</p><?= view('layout/footer') ?>

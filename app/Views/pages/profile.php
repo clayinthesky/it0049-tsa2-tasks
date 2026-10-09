@@ -1,0 +1,1 @@
+<?= view('layout/header') ?><?= view('layout/nav') ?><h1>Profile</h1><p>This page remains public as required.</p><?= view('layout/footer') ?>
